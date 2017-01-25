@@ -1,53 +1,124 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>synapticloop by synapticloop</title>
+	<head>
+		<title>synapticloop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>synapticloop</h1>
-        <p></p>
+		<!-- Header -->
+			<div id="header" class="alt">
+				<h1 id="logo"><a href="index.html"><img src="images/synapticloop-logo.png" /></a></h1>
+				<p>Thoughtfully hand-crafted code</p>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Projects</a>
+							<ul>
+								<li><a href="/h2zero/">h2zero</a></li>
+								<li><a href="/templar/">templar</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
 
+			<section id="banner">
+				<h2>Welcome</h2>
+				<p>Code that makes your life easier</p>
+			</section>
 
-        <p class="view"><a href="https://github.com/synapticloop">View My GitHub Profile</a></p>
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<div class="container">
+					<section class="feature">
+						<div class="row 200%">
+							<div class="8u 12u$(medium)">
+								<header class="major">
+									<h2>h2zero</h2>
+									<p>an easy to use object relationship mapper (ORM) code generator for Java and MySQL</p>
+								</header>
 
-      </header>
-      <section>
-        <h2><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to synapticloop.</h2>
+<ol>
+	<li><strong>No boring</strong> hand generation of POJOs to map to the database</li>
+	<li><strong>No ugly and inefficient</strong> SQL queries</li>
+	<li><strong>No exceptions</strong> <em>(unless you want them)</em></li>
+</ol>
 
-<h3><a href="https://github.com/synapticloop/h2zero/">h2zero</a></h3>
+<h5>Because not everybody has that much time...</h5>
 
-<p>
-	ORM generator for java and mysql (and optionally tomcat)
-</p>
+<p>For one of our production systems: <strong>h2zero just saved you typing 519 files!</strong></p>
 
-<h3><a href="https://github.com/synapticloop/templar/">templar</a></h3>
+<pre>
+[             SUMMARY ] [  INFO ] h2zero just generated code for 40 tables!
+[             SUMMARY ] [  INFO ] h2zero just saved you typing 519 files!  Messages [ warn: 0, fatal: 0 ]
+[             SUMMARY ] [  INFO ]      1 .sql file
+[             SUMMARY ] [  INFO ]      1 .tld file
+[             SUMMARY ] [  INFO ]      517 .java files
+</pre>
 
-<p>
-	An ultra-lightweight templating engine for java
-</p>
+								<ul class="actions">
+									<li><a href="/h2zero/" class="button alt">See the documentation</a></li>
+									<li><a href="https://github.com/synapticloop/h2zero/" class="button alt">Browse the code</a></li>
+								</ul>
+							</div>
+							<div class="4u$ 12u$(medium) important(medium)">
+							</div>
+						</div>
+					</section>
+					<section class="feature">
+						<div class="row 200%">
+							<div class="4u 12u$(medium)">
+								<span class="image fit rounded">
+								</span>
+							</div>
+							<div class="8u$ 12u$(medium)">
+								<header class="major">
+									<h2>templar</h2>
+									<p>easy to use, ultra light-weight, templating engine</p>
+								</header>
 
-<h3><a href="https://github.com/synapticloop/routemaster/">routemaster</a></h3>
+<ol>
+	<li><strong>light-weight</strong> - absolutely no dependencies</li>
+	<li><strong>whitespace is important</strong> - we (sometimes) care about newlines, spaces and tabs</li>
+	<li><strong>easy to use</strong></li>
+	<li>just <strong>powerful enough</strong></li>
+</ol>
 
-<p>
-	A tiny webserver based on nanohttpd with restful routing
-</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+<p>h2zero is powered by templar - and it generates beautiful code in an instant.</p>
+								<ul class="actions">
+									<li><a href="/templar/" class="button alt">See the documentation</a></li>
+									<li><a href="https://github.com/synapticloop/templar/" class="button alt">Browse the code</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+
+			<div id="footer">
+				<div class="container">
+					<div class="row 200% uniform">
+					</div>
+				</div>
+				<div class="copyright">
+					&copy; synapticloop. All rights reserved.
+				</div>
+			</div>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.onvisible.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
