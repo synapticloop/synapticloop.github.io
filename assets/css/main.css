@@ -2774,6 +2774,11 @@
 
 /* Banner */
 
+	#banner.secondary {
+		background-image: url("images/overlay.png"), url("../../images/404.jpg");
+	
+}
+
 	#banner {
 		padding: 11em 0 8em 0 ;
 		background-attachment: scroll, fixed;
