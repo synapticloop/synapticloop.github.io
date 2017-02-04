@@ -1,0 +1,21 @@
+<section id="sidebar">
+	<section>
+		<h3>{sidebar-h3}</h3>
+		<p>{sidebar-tagline}</p>
+		<hr />
+		{import src/imports/sidebar-nav.templar}
+	</section>
+	<hr />
+	<section>
+		<h3>View this project on github</h3>
+		<footer>
+			<ul class="actions">
+				<li><a href="https://github.com/{github-org}/{github-repo}" class="button small alt">GitHub Project</a></li>
+			</ul>
+		</footer>
+	</section>
+	<hr />
+
+	{static ../synapticloop.github.io/src/static/templar-gen.html}
+
+</section>
