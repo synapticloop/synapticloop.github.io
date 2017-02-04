@@ -2776,8 +2776,11 @@
 
 	#banner.secondary {
 		background-image: url("images/overlay.png"), url("../../images/404.jpg");
-	
-}
+	}
+
+	#banner.resources {
+		background-image: url("images/overlay.png"), url("../../images/resources.jpg");
+	}
 
 	#banner {
 		padding: 11em 0 8em 0 ;
