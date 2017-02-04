@@ -2,4 +2,4 @@
 
 There really is nothing here... 
 
-go (https://synapticloop.github.io/)[https://synapticloop.github.io/]
+go [https://synapticloop.github.io/](https://synapticloop.github.io/)
